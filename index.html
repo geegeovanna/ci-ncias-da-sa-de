@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Ciencias da Saúde</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light pt-3 pb-3 fixed-top navShadow ps-5 pe-5">
+            <div class="container-fluid">
+                <img src="imgs/logo.png"  id="imagem" class="navbar-brand" alt="logo navbar" width="23">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto listNavbar">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="#ciencias">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#cursos">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page"
+                                href="#dois">Explicação</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" data-bs-auto-close="outside" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pós-Graduação
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropstart">
+                                    <a class="dropdown-item dropdown-toggle text-black"
+                                        data-bs-toggle="dropdown" href="#">Lato-Sensu</a>
+                                    <ul class="dropdown-menu listNavbar">
+                                        <li>
+                                            <a href="#myTab" class="dropdown-item text-black"
+                                                data-bs-target="#tab1-tab"
+                                                onclick="changeTab(event)">Especialização</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropstart">
+                                    <a class="dropdown-item dropdown-toggle text-black"
+                                        data-bs-toggle="dropdown" href="#">Stricto-Sensu</a>
+                                    <ul class="dropdown-menu listNavbar">
+                                        <li>
+                                            <a href="#myTab" class="dropdown-item text-black"
+                                                data-bs-target="#tab2-tab"
+                                                onclick="changeTab(event)">Mestrado</a>
+                                        </li>
+                                        <li>
+                                            <a href="#myTab" class="dropdown-item text-black"
+                                                data-bs-target="#tab3-tab"
+                                                onclick="changeTab(event)">Doutorado</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid" id="topo">
+        <p id="titulo1"> Ciências <br> 
+        </p>
+        <p id="titulo2"> da <br> 
+        </p>
+        <p id="titulo3"> Saúde <br> 
+        </p>
+        <img src="imgs/ciencias da saude.png" id="comeco">
+
+      </div>
+      
+      <p class="text-center" id="ciencias">Ciências da saúde</p>
+    
+      <div class="container" id="cienciassaude">
+        <h1></h1>
+        <img>
+      </div>
+    </div>
+    <div class="container" id="basetexto">
+        <h1 id="informacao"></h1>
+        <p>As Ciências da Saúde cuidam tanto do indivíduo como das populações, tanto humanas como animais. Envolvem a parte clínica, de atendimento a doentes, tanto na medicina, como na veterinária, enfermagem, fonoaudiologia, farmácia, educação física, odontologia, nutrição e fisioterapia. Incluem também a pesquisa em saúde, tanto básica como aplicada.</p>
+        </div>
+    
+    
+                <!---Cursos--> 
+        <center> 
+            <section id="Cursos"> 
+              <div class="o-que-e"> 
+                 <h2 style="font-size:5vw;">Cursos</h2> 
+                   <div class="container"> 
+                     <div class="card-5" id="cursos"> 
+                       <div class="imagem-cursos"> 
+                          <img src="imgs/medicina.jpg">
+                       </div> 
+                       <div class="texto-cursos">
+                         <h3>Medicina</h3>
+                         <p>Medicina é o campo do estudo responsável por investigar e estudar a origem e causas de doenças humanas, visando chegar a uma cura, tratamento e prevenção da doença, ou até mesmo o seu avanço. </p>
+                        </div> 
+                     </div> 
+                         <div class="card-5"> 
+                            <div class="imagem-cursos">
+                             <img src="imgs/psicologia.jpg">
+                            </div> 
+                             <div class="texto-cursos"> 
+                                <h3>Psicologia</h3> 
+                                 <p>Psicologia é a área da ciência que estuda a mente e o comportamento humano e as suas interações com o ambiente físico e social.O objetivo da psicologia é diagnosticar, explicar e orientar a mudança de comportamentos humanos.</p> 
+                                  </div> 
+                             </div> 
+                              <div class="card-5"> 
+                                 <div class="imagem-cursos">
+                                     <img src="imgs/terapia-ocupacional.jpg">
+                              </div>
+                             <div class="texto-cursos">
+                                <h3>Terapia Ocupacional</h3>
+                                 <p>É uma profissão voltada à prevenção e tratamento de indivíduos com alterações cognitivas, afetivas, perceptivas e psicomotoras, decorrentes ou não de distúrbios genéticos, traumáticos ou doenças adquiridas.</p> 
+                              </div> 
+                         </div>
+                             <div class="card-5">
+                                <div class="imagem-cursos">
+                                 <img src="imgs/odontologia.jpg">
+                                 </div>
+                             <div class="texto-cursos">
+                                 <h3>Odontologia</h3>
+                                  <p>Odontologia é a área da saúde que estuda e trata do sistema estomatognático compreende o crânio, a face, pescoço e cavidade bucal, abrangendo ossos, musculatura mastigatória, articulações, dentes e tecidos. </p> 
+                             </div> 
+                         </div>
+                             <div class="card-5">
+                               <div class="imagem-cursos"> 
+                                 <img src="imgs/estetica.jpg">
+                             </div>
+                                 <div class="texto-cursos">
+                                   <h3>Estética e Cosmética</h3>
+                                     <p>A área de estética e cosmética tem como principal objetivo atuar nos cuidados com o corpo. Entre suas aptidões estão limpeza de pele, hidratação, massagens e harmonização facial. </p>
+                                 </div>
+                             </div>
+                                 <div class="card-5">
+                                   <div class="imagem-cursos">
+                                     <img src="imgs/enfermagem.jpg">
+                                   </div>
+                                 <div class="texto-cursos">
+                                    <h3>Enfermagem</h3>
+                                     <p>O enfermeiro atua na prevenção, recuperação e reabilitação da saúde do indivíduo e da comunidade. No dia a dia do profissional, o enfermeiro é responsável por assumir atividades voltadas à prestação de cuidados na área da saúde, em quadros das mais diversas complexidades.</p>
+                </div>
+              </div>
+         </div>
+     </section>
+     <div class="linha1"></div>
+     <div class="linha2"></div>
+           <p id="medicina"> Medicina </p>
+           <div class="container"id="medicina3"> 
+
+
+               <section id="Área">
+                   <div class="area">
+                   <div class="titulo">
+                   <h2 style="font-size:5vw;"></h2>
+                   </div>
+                   
+                   <div class="box1">
+                   <div class="card-9">
+                   <div class="texto2">
+                   <h5>Perfil de Estudante:</h5>
+                   <p>
+                       As principais características que o estudante de medicina deve ter é:
+                        -  ser planejado e disciplinado;
+                       detalhista;
+                        -   ter equilíbrio emocional; 
+                        -   cuidar da própria saúde;
+                        -    ser flexível quanto aos horários;
+                        ter empatia e saber se relacionar com as pessoas.</p>
+                   <br>
+                   <p>
+                   <a class="button" href="..." target="_blank">Saiba Mais</a>
+                  
+                   </div>
+                   </div>
+                   
+                   <div class="card-9" id="dois">
+                   <div class="texto2">
+                   <h5>Mercado de Trabalho:</h5>
+                   <p>
+                       O profissional de Medicina tem amplo mercado de trabalho. Ele pode atuar em hospitais, clínicas e consultórios particulares. Também pode trabalhar em áreas mais específicas, como medicina legal e medicina do trabalho.
+                       No Brasil.</p>
+                   <br>
+                   <p>
+                   <a class="button" href="..." target="_blank">Saiba Mais</a>
+                   </p>
+                  
+                   </div>
+                   </div>
+                   
+                   <div class="card-9" id="tres">
+                   <div class="texto2">
+                   <h5>Média Salárial:</h5>
+                   
+                   <p>De acordo com a Federação Nacional de Médicos(FENAM), em 2022, o piso salarial de um médico, para jornada de trabalho de 20 horas semanais, é de R$ 17.742,78..</p>
+                   <br>
+                   <p>
+                   <a class="button" href="..." target="_blank">Saiba Mais</a>
+                   </p>
+                 
+                   </div>
+                   </div>
+                   </div>
+                   
+                   </section>
+
+                   <section class="section5">
+                    <div class="container4">
+                        <div class="titulo-faculdade">
+                            <h2 class="faculdade-medicina">Principais Faculdades de Medicina</h2>
+                        </div>
+                    <div class="container">
+                        <div class="card">
+                            <div class="imagem">
+                                <img src="imgs/UFPR.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Federal<br> do <br> Paraná(UFPR)
+                                </p>
+                            </div>
+                            <button class="botao">
+                                <a href="http://www.saude.ufpr.br/portal/medicina/grade-horaria/#">
+                               <p class="grade"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card">
+                            <div class="imagem">
+                                <img src="imgs/USP.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                   Universidade <br> de <br> São Paulo(USP)
+                                </p>
+                            </div>
+                            <button class="botao">
+                                <a href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=17&codcur=17051&codhab=0&tipo=N">
+                               <p class="grade"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card">
+                            <div class="imagem">
+                                <img src="imgs/UFV.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Federal <br> de <br> Viçosa(UFV)
+                                </p>
+                            </div>
+                            <button class="botao">
+                                <a href="http://www.catalogo.ufv.br/matriz.php?campus=vicosa&complemento=*&curso=MED&ano=2018#:~:text=O%20Projeto%20Pedag%C3%B3gico%20do%20Curso%20de%20Medicina%20da,e%20respeito%20por%20todas%20as%20formas%20de%20exist%C3%AAncia.">
+                               <p class="grade"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+                    </div>
+                 </div>
+                </section>
+
+                   <div class="linha3"></div>
+                   <div class="linha4"></div>
+                   <p id="psicologia"> Psicologia </p>
+
+               </div>
+
+               <div class="box1">
+                   <div class="card-9" id="quatro">
+                   <div class="texto2">
+                   <h5>Perfil de Estudante:</h5>
+                   <p>Capacidade de empatia;
+                       Não ter preconceitos;
+                       Gosto por leitura;
+                       Perfil analítico;
+                       Habilidades de persuasão e sinceridade;</p>
+                   <br>
+                   <p>
+                   <a class="button" href="https://blog.jaleko.com.br/perfil-de-um-estudante-de-medicina/" target="_blank">Saiba Mais</a>
+                
+                   </div>
+                   </div>
+                   
+                   <div class="card-9" id="cinco">
+                   <div class="texto2">
+                   <h5>Mercado de Trabalho:</h5><br>
+                   <p>No setor público, onde ele atua em hospitais e postos de saúde.O psicólogo também continua requisitado nos setores de recursos humanos das empresas, onde pode atuar como recrutador.</p>
+                   <br>
+                   <p>
+                   <a class="button" href="https://vestibular.brasilescola.uol.com.br/guia-de-profissoes/medicina-1.htm" target="_blank">Saiba Mais</a>
+                   </p>
+                   
+                   
+                   </div>
+                   </div>
+                   
+                   <div class="card-9" id="seis">
+                   <div class="texto2">
+                   <h5>Média Salárial:</h5>
+                   
+                   <p>No cargo de Psicólogo se inicia ganhando R$ 1.953,00 de salário e pode vir a ganhar até R$ 3.619,00. A média salarial para Psicólogo no Brasil é de R$ 2.660,00..</p>
+                   <br>
+                   <p>
+                   <a class="button" href="http://www.fenam.org.br/2022/01/27/piso-fenam-2022/" target="_blank">Saiba Mais</a>
+                   </p>
+                  
+                   </div>
+                   </div>
+                   </div>
+                   
+                   </section>
+
+
+                   <section class="section6">
+                    <div class="container4">
+                        <div class="titulo-faculdade-psi">
+                            <h2 class="faculdade-psicologia">Principais Faculdades de Psicologia</h2>
+                        </div>
+                    <div class="container">
+                        <div class="card-psi">
+                            <div class="imagem-psi">
+                                <img src="imgs/UFMG.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Federal<br> de <br> Minas Gerais(UFMG)
+                                </p>
+                            </div>
+                            <button class="botao-psi">
+                                <a href="https://ufmg.br/cursos/graduacao/2354/91198">
+                               <p class="grade-psi"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card-psi">
+                            <div class="imagem-psi">
+                                <img src="imgs/USP.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                   Universidade <br> de <br> São Paulo(USP)
+                                </p>
+                            </div>
+                            <button class="botao-psi">
+                                <a href="https://uspdigital.usp.br/jupiterweb/jupDisciplinaLista?codcg=47&tipo=T">
+                               <p class="grade-psi"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card-psi">
+                            <div class="imagem-psi">
+                                <img src="imgs/UNICAMP.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Estadual <br> de <br> Campinas(UNICAMP)
+                                </p>
+                            </div>
+                            <button class="botao-psi">
+                                <a href="https://querobolsa.com.br/unicamp-universidade-estadual-de-campinas">
+                               <p class="grade-psi"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+                    </div>
+                 </div>
+                </section>
+
+                <div class="linha5"></div>
+                   <div class="linha6"></div>
+                   <p id="terapia"> Terapia </p>
+
+                   <p id="ocupacional"> Ocupacional </p>
+
+               </div>
+
+
+               <div class="box1">
+                   <div class="card-9" id="sete">
+                   <div class="texto2">
+                   <h5>Perfil de Estudante:</h5>
+                   <p>Saber trabalhar em equipe;
+                       Ser dinâmico;
+                       Saber se posicionar e tomar decisões;
+                       Ser proativo;
+                       Ter ética e responsabilidade;</p>
+                   <br>
+                   <p>
+                   <a class="button" href="https://blog.uniderp.com.br/psicologia-ms/" target="_blank">Saiba Mais</a>
+                  
+                   </div>
+                   </div>
+                   
+                   <div class="card-9" id="oito">
+                   <div class="texto2">
+                   <h5>Mercado de Trabalho:</h5>
+                   <p> Esse profissional pode encontrar trabalho em clínicas de reabilitação, asilos, hospitais, centros de saúde, creches, ambulatórios, casas de repouso, escolas (públicas e particulares), penitenciárias e até em projetos sociais..</p>
+                   <br>
+                   <p>
+                   <a class="button" href="..." target="_blank">Saiba Mais</a>
+                   </p>
+               
+                   </div>
+                   </div>
+                   
+                   <div class="card-9" id="nove">
+                   <div class="texto2">
+                   <h5>Média Salárial:</h5>
+                   
+                   <p> O salário médio é entre R$ 1.500,00 e R$ 2.600,00, sendo que esse valor altera de acordo com a instituição em que você atua.</p>
+                   <br>
+                   <p>
+                   <a class="button" href="..." target="_blank">Saiba Mais</a>
+                   </p>
+                   
+                   </div>
+                   </div>
+                   </div>
+                   
+                   </section>
+
+
+                   <section class="section7">
+                    <div class="container4">
+                        <div class="titulo-faculdade-TO">
+                            <h2 class="faculdade-TO">Principais Faculdades de Terapia Ocupacional</h2>
+                        </div>
+                    <div class="container">
+                        <div class="card-TO">
+                            <div class="imagem-TO">
+                                <img src="imgs/UFSCAR.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Federal<br> de <br> São Carlos(UFSCAR)
+                                </p>
+                            </div>
+                            <button class="botao-TO">
+                                <a href="https://www.prograd.ufscar.br/cursos/cursos-oferecidos-1/terapia-ocupacional">
+                               <p class="grade-TO"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card-TO">
+                            <div class="imagem-TO">
+                                <img src="imgs/UFPR.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                   Universidade Federal <br> do <br> Paraná(UFPR)
+                                </p>
+                            </div>
+                            <button class="botao-TO">
+                                <a href="http://www.saude.ufpr.br/portal/terapiaocupacional/wp-content/uploads/sites/5/2022/05/Matriz-curricular-TO_2022-1.pdf#:~:text=Obs%3A%20Tabela%20elaborada%20com%20base%20na%20Resolu%C3%A7%C3%A3o%20no,no%20188%2FPROGRAD%2FCOPAC%2C%20de%2025%20de%20janeiro%20de%202022.">
+                               <p class="grade-TO"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+            
+                        <div class="card-TO">
+                            <div class="imagem-TO">
+                                <img src="imgs/UEPA.png">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Universidade Estadual <br> do <br> Pará(UEPA)
+                                </p>
+                            </div>
+                            <button class="botao-TO">
+                                <a href="https://paginas.uepa.br/ccbs/terapiaocupacional/images/stories/docs/Estrutura_curricular.pdf#:~:text=MATRIZ%20CURRICULAR%20DO%20CURSO%20DE%20TERAPIA%20OCUPACIONAL%201a,IV%20INSTRUMENTALIZA%C3%87%C3%83O%20PARA%20O%20DESENVOLVIMENTO%20DA%20ATIVIDADE%20HUMANA">
+                               <p class="grade-TO"> Grade Curricular</p>
+                               </a>
+                            </button>
+                        </div>
+                    </div>
+                 </div>
+                </section>
+
+                <div class="linha7"></div>
+                   <div class="linha8"></div>
+                   <p id="odontologia"> Odontologia </p>
+
+
+                   <div class="box1">
+                       <div class="card-9" id="dez">
+                       <div class="texto2">
+                       <h5>Perfil de Estudante:</h5>
+                       <p>O perfil ideal para um estudante de odontologia exige muita calma , ter equilíbrio emocional e muita ética. Também ter a sensibilidade para compreender nos problemas do paciente e saber intervir. E também muita concentração e disciplina.</p>
+                       <br>
+                       <p>
+                       <a class="button" href="..." target="_blank">Saiba Mais</a>
+                       
+                       </div>
+                       </div>
+                       
+                       <div class="card-9" id="onze">
+                       <div class="texto2">
+                       <h5>Mercado de Trabalho:</h5>
+                       <p> Existe sempre a possibilidade do dentista abrir um consultório próprio, atendendo clientes de acordo com sua especialização. Também é possível atender em uma clínica particular em parceria com outros profissionais. Em ambas as alternativas.</p>
+                       <br>
+                       <p>
+                       <a class="button" href="..." target="_blank">Saiba Mais</a>
+                       </p>
+                      
+                       </div>
+                       </div>
+                       
+                       <div class="card-9" id="doze">
+                       <div class="texto2">
+                       <h5>Média Salárial:</h5>
+                       
+                       <p> O salário médio é entre R$ 1.500,00 e R$ 2.600,00, sendo que esse valor altera de acordo com a instituição em que você atua.</p>
+                       <br>
+                       <p>
+                       <a class="button" href="..." target="_blank">Saiba Mais</a>
+                       </p>
+                       
+                       </div>
+                       </div>
+                       </div>
+                       
+                       </section>
+                       <section class="section8">
+                        <div class="container4">
+                            <div class="titulo-faculdade-Odonto">
+                                <h2 class="faculdade-Odonto">Principais Faculdades de Odontologia</h2>
+                            </div>
+                        <div class="container">
+                            <div class="card-Odonto">
+                                <div class="imagem-Odonto">
+                                    <img src="imgs/USP.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Universidade<br> de <br> São Paulo(UPS)
+                                    </p>
+                                </div>
+                                <button class="botao-Odonto">
+                                    <a href="https://www5.usp.br/ensino/graduacao/cursos-oferecidos/odontologia/">
+                                   <p class="grade-Odonto"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                
+                            <div class="card-Odonto">
+                                <div class="imagem-Odonto">
+                                    <img src="imgs/UNICAMP.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                       Universidade Estadual <br> de <br> Campinas(UNICAMP)
+                                    </p>
+                                </div>
+                                <button class="botao-Odonto">
+                                    <a href="https://www.prg.unicamp.br/odontologia/#:~:text=As%20disciplinas%20est%C3%A3o%20agrupadas%20em%20quatro%20grandes%20%C3%A1reas%3A,aspectos%20administrativos%2C%20human%C3%ADsticos%2C%20%C3%A9ticos%20e%20legais%20da%20atividade.">
+                                   <p class="grade-Odonto"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                
+                            <div class="card-Odonto">
+                                <div class="imagem-Odonto">
+                                    <img src="imgs/UFRJ.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Universidade Federal <br> do <br> Rio de Janeiro(UFRJ)
+                                    </p>
+                                </div>
+                                <button class="botao-Odonto">
+                                    <a href="https://www.ufjf.br/gradodonto/files/2008/07/Grade-do-curso.pdf#:~:text=O%20Curso%20de%20Odontologia%20tem%20a%20seguinte%20dura%C3%A7%C3%A3o%3A,Est%C3%A1gio%20de%20Urg%C3%AAncia%20Odontol%C3%B3gica............................................................................%20120%20h%2Fa%20Est%C3%A1gio%20Hospitalar..................................................................................................">
+                                   <p class="grade-Odonto"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                        </div>
+                     </div>
+                    </section>
+
+                    <div class="linha9"></div>
+                   <div class="linha10"></div>
+                   <p id="estetica"> Estética  </p>
+
+                   <p id="e"> e </p>
+                 
+                   <p id="cosmetica"> Cosmética </p>
+
+
+                   <div class="box1">
+                       <div class="card-9" id="treze">
+                       <div class="texto2">
+                       <h5>Perfil de Estudante:</h5>
+                       <p>Uma das características mais importantes é gostar de pessoas. Pois, o profissional da área lidará com pessoas o tempo todo e saber ouvir é uma qualidade muito valorizada. </p>
+                       <br>
+                       <p>
+                       <a class="button" href="..." target="_blank">Saiba Mais</a>
+                      
+                       </div>
+                       </div>
+                       
+                       <div class="card-9" id="quatorze">
+                       <div class="texto2">
+                       <h5>Mercado de Trabalho:</h5>
+                       <p> O profissional formado em Estética e Cosmética encontra oportunidades de emprego em salões de beleza, centros de estética, clínicas, academias, SPAs, resorts e indústrias que fabricam produtos ou acessórios de beleza.</p>
+                       <br>
+                       <p>
+                       <a class="button" href="..." target="_blank">Saiba Mais</a>
+                       </p>
+                       
+                       </div>
+                       </div>
+                       
+                       <div class="card-9" id="quinze">
+                       <div class="texto2">
+                       <h5>Média Salárial:</h5>
+                       
+                       <p> No início de carreira ele pode receber entre R$ 1.200,00 e R$ 2.400,00, já que não há um piso fixo para atuação no setor. Mas, com mais tempo de carreira e reconhecimento profissional, um farmacêutico cosmetologista pode ganhar até R$ 30 mil..</p>
+                       <br>
+                       <p>
+                       <a class="button" href="..." target="_blank">Saiba Mais</a>
+                       </p>
+                      
+                       </div>
+                       </div>
+                       </div>
+                       
+                       </section>
+
+
+                       <section class="section9">
+                        <div class="container4">
+                            <div class="titulo-faculdade-estetica">
+                                <h2 class="faculdade-estetica">Principais Faculdades de Estética e Cosmética</h2>
+                            </div>
+                        <div class="container">
+                            <div class="card-estetica">
+                                <div class="imagem-estetica">
+                                    <img src="imgs/UVV.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Universidade<br> de <br> Vila Velha(UVV)
+                                    </p>
+                                </div>
+                                <button class="botao-estetica">
+                                    <a href="https://uvv.br/ensino-presencial/graduacao/estetica-e-cosmetica/">
+                                   <p class="grade-estetica"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                
+                            <div class="card-estetica">
+                                <div class="imagem-estetica">
+                                    <img src="imgs/UNIGRAN.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Centro Universitário da <br>Grande Dourados(UNIGRAN)
+                                    </p>
+                                </div>
+                                <button class="botao-estetica">
+                                    <a href="https://portal.unigranrio.edu.br/tecnologia-em-estetica-e-cosmetica#:~:text=Dessa%20forma%2C%20o%20aluno%20se%20torna%20apto%20a,Tratamentos%20Dermatol%C3%B3gicos%2C%20Terapia%20Capilar%2C%20Maquiagem%2C%20Massagem%2C%20entre%20outras.">
+                                   <p class="grade-estetica"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                
+                            <div class="card-estetica">
+                                <div class="imagem-estetica">
+                                    <img src="imgs/UNIVAG.png">
+                                </div>
+                                <div class="content">
+                                    <p>
+                                        Centro Universitário<br> de <br>Várzea Grande(UNIVAG)
+                                    </p>
+                                </div>
+                                <button class="botao-estetica">
+                                    <a href="https://www.univag.com.br/curso/29/estetica-e-cosmetica/">
+                                   <p class="grade-estetica"> Grade Curricular</p>
+                                   </a>
+                                </button>
+                            </div>
+                        </div>
+                     </div>
+                    </section>
+
+                    <div class="linha11"></div>
+                       <div class="linha12"></div>
+                       <p id="enfermagem"> Enfermagem</p>
+
+
+                       <div class="box1">
+                           <div class="card-9" id="dezesseis">
+                           <div class="texto2">
+                           <h5>Perfil de Estudante:</h5>
+                           <p>Equilíbrio emocional;<br>
+                               Comprometimento;<br>
+                               Segurança para atuar sob forte pressão;<br>
+                               Proatividade;<br>
+                               Empatia;<br>
+                               Facilidade de comunicação;<br>
+                               Trabalho em equipe;<br>
+                               Ética profissional; </p>
+                           <br>
+                           <p>
+                           <a class="button" href="..." target="_blank">Saiba Mais</a>
+                          
+                           </div>
+                           </div>
+                           
+                           <div class="card-9" id="dezessete">
+                           <div class="texto2">
+                           <h5>Mercado de Trabalho:</h5>
+                           <p> Os enfermeiros podem atuar em quase todo o setor hospitalar, instituições de saúde, clínicas e no acompanhamento domiciliar de pacientes. Outra possibilidade é prestar serviços para planos de saúde e laboratórios.</p>
+                           <br>
+                           <p>
+                           <a class="button" href="..." target="_blank">Saiba Mais</a>
+                           </p>
+                           
+                           </div>
+                           </div>
+                           
+                           <div class="card-9" id="dezoito">
+                           <div class="texto2">
+                           <h5>Média Salárial:</h5>
+                           
+                           <p>A média salarial brasileira para o cargo de enfermeiro é de R$3.136,50. Os melhores salários médios estão nos estados de Mato Grosso do Sul, São Paulo e no Distrito Federal.</p>
+                           <br>
+                           <p>
+                           <a class="button" href="..." target="_blank">Saiba Mais</a>
+                           </p>
+                          
+                           </div>
+                           </div>
+                           </div>
+                           
+                           </section>
+
+                           <section class="section10">
+                            <div class="container4">
+                                <div class="titulo-faculdade-enfermagem">
+                                    <h2 class="faculdade-enfermagem">Principais Faculdades de Enfermagem</h2>
+                                </div>
+                            <div class="container">
+                                <div class="card-enfermagem">
+                                    <div class="imagem-enfermagem">
+                                        <img src="imgs/UFRGS.png">
+                                    </div>
+                                    <div class="content">
+                                        <p>
+                                            Universidade Federal <br> do <br> Rio Grande do Sul(UFRGS)
+                                        </p>
+                                    </div>
+                                    <button class="botao-enfermagem">
+                                        <a href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=315">
+                                       <p class="grade-enfermagem"> Grade Curricular</p>
+                                       </a>
+                                    </button>
+                                </div>
+                    
+                                <div class="card-enfermagem">
+                                    <div class="imagem-enfermagem">
+                                        <img src="imgs/UFMG.png">
+                                    </div>
+                                    <div class="content">
+                                        <p>
+                                            Universidade Federal <br> de <br> Minas Gerais(UFMG)
+                                        </p>
+                                    </div>
+                                    <button class="botao-enfermagem">
+                                        <a href="https://ufmg.br/cursos/graduacao/2397/91212">
+                                       <p class="grade-enfermagem"> Grade Curricular</p>
+                                       </a>
+                                    </button>
+                                </div>
+                    
+                                <div class="card-enfermagem">
+                                    <div class="imagem-enfermagem">
+                                        <img src="imgs/USP.png">
+                                    </div>
+                                    <div class="content">
+                                        <p>
+                                            Universidade<br> de <br> São Paulo(USP)
+                                        </p>
+                                    </div>
+                                    <button class="botao-enfermagem">
+                                        <a href="https://portalservicos.usp.br/jupiterweb/listarGradeCurricular?codcg=22&codcur=22012&codhab=0&tipo=V#:~:text=Grade%20Curricular%20Legenda%3A%20CH%3DCarga%20hor%C3%A1ria%20Total%3B%20CE%3DCarga%20hor%C3%A1ria,Curriculares%3B%20ATPA%3DCarga%20hor%C3%A1ria%20em%20Atividades%20Te%C3%B3rico-Pr%C3%A1ticas%20de%20Aprofundamento">
+                                       <p class="grade-enfermagem"> Grade Curricular</p>
+                                       </a>
+                                    </button>
+                                </div>
+                            </div>
+                         </div>
+                        </section>
+
+
+                   
+    
+     <!--Como são as faculdades-->
+     <center>
+      <section id="como-e"> 
+        <div class="sobre-faculdades">
+            <h2 style="font-size:5vw; text-shadow: #30383f;">Como são as Faculdades?</h2>
+             <div class="container" id=""> 
+               <div class="card-5">
+                <div class="imagens-sobre"> 
+                   <img src="imgs/medicina.png"> 
+               </div> 
+               <div class="texto-sobre-faculdades"> 
+                   <h3>Faculdade de Medicina</h3> 
+                   <p>A graduação em Medicina têm duração de 6 anos, os dois primeiros anos do curso são destinados aos assuntos básicos e introdutórios da área de saúde, enquanto o terceiro e quarto ano de estudos são dedicados aos conhecimentos clínicos da medicina. Já nos dois últimos anos, os estudantes são envolvidos na prática clínica.
+
+                        </p> 
+                       </div>
+                    </div>
+                    <div class="card-5"> 
+                       <div class="imagens-sobre"> 
+                           <img src="imgs/psicologia.png">
+                       </div> 
+                       <div class="texto-sobre-faculdades"> 
+                           <h3>Faculdade de Psicologia</h3> 
+                           <p>A faculdade de Psicologia promove o desenvolvimento de habilidades e técnicas voltadas para o entendimento de pacientes com os mais diversos distúrbios de cunho emocional.A graduação em Psicologia é um curso que oferece título de bacharel e que conta com disciplinas teóricas e práticas. O curso de graduação em Psicologia leva, no mínimo, 5 anos de duração.</p> 
+                       </div> 
+                   </div> 
+                   <div class="card-5"> 
+                       <div class="imagens-sobre"> 
+                           <img src="imgs/terapia.png">
+                       </a> 
+                   </div> 
+                   <div class="texto-sobre-faculdades"> 
+                       <h3>Faculdade de Terapia Ocupacional</h3> 
+                       <p>O curso de graduação em Terapia Ocupacional tem a duração de 4 anos e é composto por disciplinas da área da Saúde, como Anatomia, Fisiologia, Biologia e Pediatria, além de conteúdos da Ciências Humanas e Sociais, como Ética e Psicologia.</p> 
+                   </div> 
+               </div> 
+               <div class="card-5" id="odonto">
+                    <div class="imagens-sobre"> 
+                       <img src="imgs/odontologia.png">
+
+                       </a> 
+                   </div> 
+                   <div class="texto-sobre-faculdades"> 
+                       <h3>Faculdade de Odontologia</h3> 
+                       <p>A faculdade de Odontologia é do tipo bacharelado e tem duração média de 5 anos. O objetivo do curso é capacitar profissionais para identificar, prevenir e tratar doenças da boca, dentes, gengivas e ossos da face. Durante o curso, o aluno aprende como aplicar técnicas e tratamentos dentários e como lidar com pacientes com necessidades especiais.
+                            </p> 
+                           </div> 
+                       </div> 
+                       <div class="card-5"> 
+                           <div class="imagens-sobre"> 
+                               <img src="imgs/estetica.png"> 
+
+                               </a> 
+                           </div> 
+                           <div class="texto-sobre-faculdades"> 
+                               <h3>Faculdade de Estética e Cosmética</h3> 
+                               <p>A fim de formar profissionais que atuem de forma prática e empreendedora nesse mercado, as melhores faculdades de Estética e Cosmética oferecem o curso de grau bacharelado ou tecnológico, além de haver também instituições que possuem o curso técnico na área.
+
+                               </p> 
+                           </div> 
+                       </div> 
+                       <div class="card-5"> 
+                           <div class="imagens-sobre"> 
+                               <img src="imgs/enfermagem.png">
+
+                               </a> 
+                           </div> 
+                           <div class="texto-sobre-faculdades"> 
+                               <h3>Faculdade de Enfermagem</h3> 
+                               <p>A graduação de enfermagem dura, em média 5 anos. Ao longo deste período o aluno aprende gradativamente a realizar procedimentos inerentes à profissão como atendimento de pacientes em primeiros socorros, fazer curativos, administração de medicamentos, coleta de amostras para exames, além de auxiliar os médicos em procedimentos.
+                               </p> 
+                           </div> 
+                       </div> 
+                   </div> 
+               </section>
+
+      </section>
+         
+                
+
+                 <section class="section1">
+                  <div class="section1-conteudo">
+                  <div class="slider">
+                      <div class="slide">
+                          <input type="radio" name="radio-btn" id="radio1">
+                          <input type="radio" name="radio-btn" id="radio2">
+                          <input type="radio" name="radio-btn" id="radio3">
+          
+                          <div class="st first">
+                              <img src="imgs/imagem1.jpg" alt="">
+                          </div>
+          
+                          <div class="st">
+                              <img src="imgs/imagem2.jpg" alt="">
+                          </div>
+          
+                          <div class="st">
+                              <img src="imgs/imagem3.jpg" alt="">
+                          </div>
+          
+                          <div class="nav-auto">
+                              <div class="a-b1"></div>
+                              <div class="a-b2"></div>
+                              <div class="a-b3"></div>
+                          </div>
+                      </div>
+          
+                      <div class="nav-m">
+                          <label for="radio1" class="m-btn"></label>
+                          <label for="radio2" class="m-btn"></label>
+                          <label for="radio3" class="m-btn"></label>
+                      </div>
+          
+                  </div>
+              </div>
+              </section>
+    
+                
+              <div class="container" id="especialização">
+                <h1>Especialização</h1>
+            </div>
+    
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Especialização em Medicina" data-bs-content="As chamadas especialidades médicas são as diversas áreas ou segmentos da Medicina que foram divididas devido a sua complexidade. Assim, é possível se aprofundar de forma científica entre as mais de 50 especializações que existem, e entender sobre as doenças, diagnósticos e tratamentos.
+
+              A especialização em Medicina não é obrigatória, mas visto que, a competitividade do mercado de trabalho tem crescido, muitos profissionais buscam se especializar para que assim, ganhem destaque na hora de se inserir. Além disso, médicos especialistas são mais bem remunerados devido ao seu grau de conhecimento sobre determinado ramo." id="colaps1">Medicina</button>
+              <script>
+                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+                var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                })
+                </script>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover2" title="Especialização em Psicologia" data-bs-content="A pós-graduação em Psicologia Clínica é voltada para psicólogos e tem a duração de 10 meses. Ela tem como o objetivo o aperfeiçoamento de conhecimentos em uma das áreas mais clássicas da Psicologia, que trata de pacientes afetados por algum tipo de mal-estar psicológico." id="colaps2">Psicologia</button>
+                <script>
+                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover2"]'))
+                var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+                })
+                </script>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover3" title="Especialização em Terapia Ocupacional" data-bs-content="A pós-graduação em Terapia Ocupacional tem como objetivo capacitar o profissional em diferentes áreas de atuação da Terapia Ocupacional. O curso é importante para aprofundar os conhecimentos de profissionais da área da saúde, que têm uma formação mais generalista na graduação. Os cursos têm duração média de 10 meses e podem ser feito presencial ou na modalidade Terapia Ocupacional a distância. A pós em Terapia Ocupacional EAD é interessante para quem almeja ter maior flexibilidade de tempo de dedicação aos estudos, tendo a possibilidade de estudar em qualquer hora ou local. Com uma pós-graduação, o terapeuta torna seu currículo mais atualizado e mais competitivo, tendo maiores oportunidades de se destacar na carreira." id="colaps3">Terapia Ocupacional</button>
+                <script>
+                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover3"]'))
+                var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+                })
+                </script>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover4" title="Especialização em Odontologia" data-bs-content="Fazer uma especialização em Odontologia é quase um requisito básico para se destacar no mercado e atingir melhores remunerações. Mas, escolher o curso ideal para você nem sempre é uma tarefa fácil.
+
+                Para fazer uma escolha embasada nada melhor do que conhecer a fundo os tipos de espacialidades, duração do curso e áreas de atuação. Você já sabe que o curso de pós-graduação de Odontologia stricto sensu, ou seja, o mestrado é dividido em 4 semestres. No caso da especialização, o prazo para conclusão pode ser de até 6 semestres, ou 36 meses." id="colaps4">Odontologia</button>
+                    <script>
+                    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover4"]'))
+                    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                    return new bootstrap.Popover(popoverTriggerEl)
+                    })
+                    </script>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover5" title="Especialização em Estética" data-bs-content="A especialização em Estética é, normalmente, ministrada a partir de cursos livres. O objetivo é trazer um aprendizado rápido e focado, qualificando o profissional para a atuação em determinado procedimento, assunto ou área de interesse.
+
+                Boa parte dos cursos de especialização são ministrados na modalidade a distância. O EAD é uma ótima forma de se especializar atualmente, pois permite que o profissional estude e trabalhe simultaneamente, adequando a rotina e o cronograma às próprias necessidades e horários.Em muitos casos, a duração dos cursos de especialização é de apenas cinco semanas. Assim, em pouco mais de um mês, você tem a qualificação completa para atuar em uma área completamente nova, com certificados válidos e reconhecidos pelo Ministério da Educação (MEC).
+
+                Em cursos com essa duração, a carga horária é de, em média, 30 horas de estudos. todas carregadas de informações úteis, mas sempre de maneira objetiva e com aulas ministradas por profissionais experientes e cheios de didática.
+                
+                No entanto, vale a pena ressaltar que as especializações podem ter durações diferentes, chegando a meses e centenas de horas de carga horária. Vale a pena pesquisar e ver quais são as suas necessidades!" id="colaps5">Estética</button>
+                <script>
+                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover5"]'))
+                var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+                })
+                </script>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover6" title="Especialização em Enfermagem" data-bs-content="Esse curso de especialização é voltado para graduados em Enfermagem, possui uma duração média de 15 meses e uma carga horária média de 360 horas, sendo oferecido aos fins de semana, dependendo da instituição escolhida. Abrange matérias como: Legislação; Processo Saúde-Doença; Segurança e Higiene do Trabalho; Vigilância Epidemiológica e Doenças Ocupacionais; Toxicologia; Enfermagem do Trabalho; Promoção da Saúde do Trabalhador; Enfermagem Offshore; Urgência e Emergência no Trabalho.A área de atuação desse profissional é abrangente, podendo atuar nas mais diferentes empresas, organizações e instituições, independentemente do ramo ou setor em que atuam. Contudo, o ingresso nesse setor exige, no currículo, essa especialização. Em concursos de grandes empresas, é critério de elegibilidade, já no edital, o certificado da especialização em enfermagem do trabalho." id="colaps6">Enfermagem</button>
+                <script>
+                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover6"]'))
+                var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+                })
+                </script>
+
+            <div class="container" id="mestrado">
+                <h1>Mestrado</h1>
+            </div>   
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover7" title="Mestrado em Medicina" data-bs-content="Na área de saúde, o mestrado em Medicina e Biomedicina é um dos cursos que atendem a esses requisitos. Com duração de 24 meses, o curso busca de forma multidisciplinar capacitar o profissional para produção de conhecimento científico-tecnológico nos âmbitos de assistência à saúde e de ensino.
+                O candidato ideal para o mestrado em medicina e saúde internacional deve ter um diploma de graduação preferencialmente em medicina ou odontologia ou, ainda, ser graduado em outras disciplinas relevantes para a saúde pública e área da saúde em geral como enfermagem, farmácia, fisioterapia e outras." id="colaps7">Medicina</button>
+                <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover7"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                    return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover8" title="Mestrado em Psicologia" data-bs-content="Após concluir a graduação muitas pessoas optam pela educação continuada através de cursos de mestrado. O mesmo acontece com portadores de diploma na área da Psicologia. Além dos cursos de pós, os psicólogos também podem fazer cursos de mestrado em Psicologia nos mais diferentes segmentos.
+                  O mestrado acadêmico é indicado para o profissional que deseja construir uma carreira acadêmica e/ou cientifica. Os cursos geralmente duram entre 1 e 2 anos, período no qual o participante além de assistir aulas e aprofundar seus conhecimentos teóricos, desenvolve uma pesquisa com o auxílio de um professor orientador. É possível ainda que ele precise dar aulas em turmas de graduação, como num estágio supervisionado.
+                  Para ingressar, é necessário realizar uma prova de conhecimentos teóricos, realizar uma entrevista e fazer prova de proficiência em inglês." id="colaps8">Psicologia</button>
+                  <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover8"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover9" title="Mestrado em Terapia Ocupacional" data-bs-content="Os alunos completam uma colocação de trabalho de campo em tempo integral de 12 semanas em um centro de reabilitação geral ou enfermagem especializada após o primeiro ano de estudo, e outra colocação de trabalho de campo em tempo integral após o segundo ano." id="colaps9">Terapia Ocupacional</button>
+                  <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover9"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover10" title="Mestrado em Odontologia" data-bs-content="Estudantes de mestrado odontológico podem fazer matérias para se especializar em diversas áreas, como implantes orais ou biologia oral.
+
+                  Os alunos devem esperar cerca de dois anos para completar tais programas. As aulas incluem pesquisa extensiva, bem como aulas práticas com pacientes.
+                  
+                  As vantagens de completar um programa de odontologia são diversas. Por exemplo, os alunos melhoram as habilidades de pesquisa e são capazes de se especializar em uma área que lhes interessa.
+                  
+                  O curso promove uma melhor qualificação dos profissionais para o mercado de trabalho. Assim, eles também podem ganhar ótimas oportunidades de carreira e conseguir melhores salários.
+                  
+                  Universidades em diversos países oferecem mestrados em odontologia. Por isso, os estudantes devem entrar em contato com cada curso para perguntar sobre os custos ou pesquisar as instituições de ensino.
+                  
+                  Os possíveis mestrandos devem sempre entender os requisitos dos programas para que eles achem o curso que supra suas necessidades da melhor maneira possível.
+                  
+                  Além disso, pessoas que completam cursos avançados de odontologia podem optar por exercer a profissão de uma maneira geral.
+                  
+                  Ainda existem casos onde os estudantes obtêm formação complementar em alguma especialidade odontológica. A estrutura do curso varia bastante. Os matriculados podem fazer aulas em meio período ou tempo integral.
+                  
+                  Embora a prática seja necessária para algumas instituições, muitos programas fornecem a opção de aprendizagem online para os assuntos de sala de aula." id="colaps10">Odontologia</button>
+                      <script>
+                      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover10"]'))
+                      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                      return new bootstrap.Popover(popoverTriggerEl)
+                      })
+                      </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover11" title="Mestrado em Estética" data-bs-content="Ao estudar o Mestrado em Medicina Estética, você poderá adquirir o conhecimento profissional para conhecer e identificar os problemas dermatológicos tratáveis. Além disso, você aprenderá os tratamentos de correção facial, envelhecimento da pele e intolerância à pele de produtos cosméticos.
+                  O curso extra e de licenciamento para a educação de nível de mestrado geralmente requer cinco semestres de aulas e um ano de experiência de trabalho." id="colaps11">Estética</button>
+                  <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover11"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover12" title="Mestrado em Enfermagem" data-bs-content="Na área de saúde, o mestrado acadêmico em Enfermagem é um dos cursos que atendem a esses requisitos. Com duração de 24 meses, o curso busca de forma interdisciplinar capacitar o profissional para produção de conhecimento científico-tecnológico nos âmbitos de assistência à saúde e de ensino." id="colaps12">Enfermagem</button>
+                  <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover12"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+
+                <div class="container" id="doutorado">
+                    <h1>Doutorado</h1>
+                </div>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover13" title="Doutorado em Medicina" data-bs-content="O doutorado em Medicina é para muitos o último ponto da jornada de estudos — claro que ainda há pessoas que vão fazer pós-doutorado, PhD, etc. Ele é a etapa seguinte ao mestrado, tem duração média de 4 a 5 anos e é estruturado para a área de pesquisa e carreira acadêmica.16 de mai. de 2023
+
+                De uma maneira geral o estudante precisaria de pelo menos 6 anos de estudo para conseguir ingressar no doutorado. Contudo, com o programa MD-PhD é um sistema diferenciado que possibilita ao estudante de Medicina iniciar o doutorado durante a graduação." id="colaps13">Medicina</button>
+                <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover13"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                    return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover14" title="Doutorado em Psicologia" data-bs-content="O Doutorado em Psicologia é um programa multidisciplinar que proporciona ao participante os conhecimentos e habilidades necessários para desenvolver uma contribuição científica rigorosa e de qualidade.
+                  O prazo para concluir o doutorado é de 4(quatro) anos. Para o curso de doutorado contabilizam-se os 48 créditos em disciplinas do mestrado, exigindo-se, além deles, mais 32 créditos em disciplina e o trabalho de tese, que corresponde a 120 créditos." id="colaps14">Psicologia</button>
+                  <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover14"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover15" title="Doutorado em Terapia Ocupacional" data-bs-content="Com um doutorado em Terapia Ocupacional, você está qualificado para buscar as opções de carreira de mais alto nível em vários ambientes de cuidados de saúde: Hospital e clinicas. Escolas. Instalações de cuidados de enfermagem.
+                  inclui 110 horas de crédito de estudo aprofundado, que pode ser concluído em 9 semestres (3 anos civis) em tempo integral." id="colaps15">Terapia Ocupacional</button>
+                  <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover15"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover16" title="Doutorado em Odontologia" data-bs-content="Para fazer o doutorado, não é obrigatório ter feito um mestrado. No entanto, como iremos ver mais para frente, o título de mestre é um diferencial na escolha dos candidatos do doutorado.
+
+                  Umas das informações mais importantes que você precisa saber é que, o doutorado trará uma carga teórica mais profunda. Ele é essencial para os profissionais que pretendem seguir a carreira acadêmica ou de pesquisa.
+                  
+                  O futuro doutorando deve procurar por um programa em uma faculdade. Tanto o programa, como a faculdade devem ser reconhecidos pelo MEC.
+                  
+                  Quando você encontrar o programa que mais corresponde com os seus critérios, está na hora de se inscrever no processo seletivo.
+                  
+                  O processo seletivo é composto por algumas etapas. Por isso, é importante que você saiba sobre os seus objetivos de forma clara.
+                  
+                  Os requisitos podem variar de uma instituição de ensino para outra. Portanto, leia com bastante atenção o edital da sua escolhida. Lembrando que você pode se aplicar para mais de uma.
+  
+                  O Doutorado Direto não deve ultrapassar 48 meses." id="colaps16">Odontologia</button>
+                      <script>
+                      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover16"]'))
+                      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                      return new bootstrap.Popover(popoverTriggerEl)
+                      })
+                      </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover17" title="Doutorado em Estética" data-bs-content="Essa modalidade forma profissionais em nível de mestrado e doutorado. Ainda não há formações específicas para Estética nesse sentido, mas o profissional pode escolher um ramo da área da saúde para desenvolver pesquisas em Estética. Além de contribuir para a descoberta de novos procedimentos, técnicas e produtos, ele também pode lecionar em instituições de ensino superior, nos cursos tecnológicos e de pós-graduação.
+
+                  Afinal, quando se fala em Estética, lida-se com a autoestima das pessoas. Elas procuram um especialista que possa oferecer soluções para problemas visíveis. Por isso, o esteticista precisa ter muita responsabilidade para desempenhar bem seu papel e contribuir para a elevação da autoestima de seu paciente. Veja agora alguns cursos de pós-graduação em nível de especialização." id="colaps17">Estética</button>
+                  <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover17"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+  
+                  <button type="button" class="btn btn-primary" data-bs-toggle="popover18" title="Doutorado em Enfermagem" data-bs-content="Um PhD em Enfermagem dá aos alunos a oportunidade de ir além do trabalho prático de enfermagem e entrar no reino teórico e filosófico da ciência e análise de enfermagem. Ao desenvolver habilidades no nível amplo e orientado para a pesquisa, os graduados em doutorado obtêm uma vantagem acadêmica.
+                  Duração - O Doutorado terá duração mínima de 4 (quatro) períodos letivos (2 anos) e máxima de 8 (oito) períodos letivos (4 anos)." id="colaps18">Enfermagem</button>
+                  <script>
+                  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover18"]'))
+                  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                  return new bootstrap.Popover(popoverTriggerEl)
+                  })
+                  </script>
+                
+
+                <footer class="text-light bg-dark fixed-buttom" >
+                    <div class="container-fluid py-3">
+                    <div class="row">
+                      <div class="col-4">
+                        <ul class="nav flex-column">
+                          
+                          <li class="nav-link"><a href="#https://github.com/geegeovanna">Aluna: Geovanna</a></li>
+                          <li class="nav-link"><a href="#https://github.com/anacardozo">Aluna: Ana Flávia</a></li>
+                          <li class="nav-link"><a href="#">Aluna: Ana Kelly</a></li>
+                          
+                        </ul>
+                      </div>
+                      <div class="col-8">
+                        <p>
+                            Esse é um trabalho desenvolvido pelos alunos da ETEC de Registro do 2° ano de Desenvolvimento de Sistemas. Com o intuito de informar as pessoas sobre essa area.
+                        </p>
+                        
+                      </div>
+                    </div>
+                    </div>
+                    <div class="text-center bg-dark">
+                      &copy 2023 Copyright: <a href="#">Projeto Profissões</a>
+                    </div>
+                  </footer>
+    
+        
+              
+                    
+  </body>
+</html>
